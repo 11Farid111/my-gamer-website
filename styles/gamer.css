@@ -242,27 +242,77 @@ nav li a {
     font-weight: 400;
 
 }
-.play-game-info{
-        text-align: right; 
-        padding: 200px 200px 0px 250px ;
-        align-items: center;
-        
-    }
 
-.play-game-img{
+.play-game-info {
+    text-align: right;
+    padding: 200px 200px 0px 250px;
+    align-items: center;
+
+}
+
+.play-game-img {
     background: url('../images/Rectangle\ 55.png');
     background-repeat: no-repeat;
     background-position: right;
     background-size: 550px;
 
 }
-.play-game-img img{
+
+.play-game-img img {
     padding-top: 460px;
     padding-right: 460px;
 
-    
+
 }
 
+.content {
+    grid-template-columns: repeat(5, 1fr);
+    display: grid;
+    padding: 50px 280px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    gap: 5px;
+
+
+}
+
+.content-img img {
+    height: 50%;
+}
+
+.content-img {
+    display: flex;
+    border-radius: 50px;
+    background: #FFF;
+    gap: 10px;
+    padding: 0px 10px;
+    align-items: center;
+
+
+}
+
+.content-title {
+    color: #0B0223;
+    font-size: rem;
+    font-weight: 600;
+
+}
+
+.content-img-13 {
+    gap: 10px;
+    padding: 0px 10px;
+    display: flex;
+    border-radius: 50px;
+    border: 1.5px solid var(--Linear, #FF42A5);
+    background: #FFF;
+    align-items: center;
+}
+.content-img-13 img{
+    height: 50%;
+}
+.content-title-13{
+    color:#FF42A5;
+
+}
 
 /* mobile device responsive */
 @media screen and (max-width:576px) {
@@ -274,7 +324,7 @@ nav li a {
     .play-section,
     .gamer-section,
     .online-game-img,
-    .play-game-section  {
+    .play-game-section {
         flex-direction: column;
     }
 
@@ -311,22 +361,36 @@ nav li a {
         padding: 20px;
         align-items: center;
     }
-    .play-game-info{
+
+    .play-game-info {
         padding: 20px;
-    
+        text-align: center;
+
     }
-    .play-game-section{
+
+    .play-game-section {
         padding: 40px;
-        align-items: center;
     }
-    .play-game-img img{
+
+    .play-game-img img {
         width: 150px;
         padding-top: 250px;
         padding-right: 250px;
         align-items: center;
     }
-    .play-game-img{
+
+    .play-game-img {
         background-size: 330px;
     }
 
+    .content {
+        grid-template-columns: repeat(3, 1fr);
+        display: grid;
+        padding: 10px;
+        margin-top: 10px;
+
+
+
+
+    }
 }
