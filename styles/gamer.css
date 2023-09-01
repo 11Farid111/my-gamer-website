@@ -97,6 +97,7 @@ nav li a {
     list-style: none;
 
 
+
 }
 
 .play-section-info li a {
@@ -104,6 +105,7 @@ nav li a {
     color: #534C64;
     font-size: 1.25rem;
     font-weight: 500;
+
 
 }
 
@@ -400,8 +402,8 @@ footer {
 
     .play-section-info {
         padding: 20px;
+        text-align: center;
     }
-
     .play-img img {
         width: 90%;
     }
